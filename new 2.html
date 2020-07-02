@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Таблица</title>
+  <style type="text/css">
+   TABLE {
+    width: 300px; /* Ширина таблицы */
+    border: 2px solid black; /* Рамка вокруг таблицы */
+    background: #778899; /* Цвет фона */
+    color: white; /* Цвет текста */
+   }
+   TD, TH {
+    text-align: center; /* Выравнивание по центру */
+    padding: 3px; /* Поля вокруг текста */
+   }
+   TH {
+    color: white; /* Цвет текста */
+    border-bottom: 4px double black; /* Двойная линия снизу */
+   }
+   .even { /* Стиль для четных колонок */
+    background: #ffe4b5; /* Цвет фона */
+    color: black; /* Цвет текста */
+   }
+   .lc { /* Стиль для первой колонки */
+    text-align: left; /* Выравнивание по левому краю */
+    color: #fffacd; /* Цвет текста */
+   }
+  </style>
+ </head>
+ <body>
+  <table cellspacing="0">
+   <tr>
+    <th>&nbsp;</th><th class="even">2004</th><th>2005</th><th class="even">2006</th>
+   </tr>
+   <tr>
+    <td class="lc">Рубины</td><td class="even">43</td><td>51</td><td class="even">79</td>
+   </tr>
+   <tr>
+    <td class="lc">Изумруды</td><td class="even">28</td><td>34</td><td class="even">48</td>
+   </tr>
+   <tr>
+    <td class="lc">Сапфиры</td><td class="even">29</td><td>57</td><td class="even">36</td>
+   </tr>
+  </table>
+ </body>
+</html>
